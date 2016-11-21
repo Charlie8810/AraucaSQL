@@ -1,0 +1,27 @@
+USE [BD_CAMPANIAS]
+GO
+
+/****** Object:  Table [dbo].[TabCmp_Canales]    Script Date: 21/11/2016 11:03:52 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[TabCmp_Canales](
+	[can_id] [int] NOT NULL,
+	[can_nombre] [varchar](255) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[can_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
