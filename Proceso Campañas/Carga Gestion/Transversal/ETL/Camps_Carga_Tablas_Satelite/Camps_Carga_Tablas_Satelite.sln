@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{D183A3D8-5FD8-494B-B014-37F57B35E655}") = "Camps_Carga_Tablas_Satelite", "Camps_Carga_Tablas_Satelite\Camps_Carga_Tablas_Satelite.dtproj", "{C8F954E3-EEAF-42FF-8BDD-054753059FDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8F954E3-EEAF-42FF-8BDD-054753059FDB}.Development|Default.ActiveCfg = Development
+		{C8F954E3-EEAF-42FF-8BDD-054753059FDB}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
